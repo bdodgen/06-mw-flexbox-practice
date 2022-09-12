@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  background-color: #313638;
+  min-height: 15vh;
+  font-size: 2em;
+  color: white;
+  padding: 30px;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  display: flex;
+  background-color: #f06543;
+  font-size: 2em;
+  color: white;
+  padding: 30px;
+  justify-items: center;
+}
+
+article {
+  padding: 30px 15%;
+}
+
+article h1 {
+  font-size: 2em;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  background-color: #b3b3b3;
+  min-height: 15vh;
+  font-size: 2em;
+  color: white;
+  padding: 30px;
+  align-items: center;
+}
